@@ -1,0 +1,81 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background:black;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.one video {
+  height:100vh;
+  width:100%;
+}
+
+.two video {
+  height:100vh;
+  width:100%;
+}
+
+.three video {
+  height: 100vh;
+  width:100%;
+}
+
+.four video {
+  height: 100vh;
+  width:100%;
+}
+
+.headerone {
+  color: white;
+}
+/* NEW SHIT (PADDING) */
+.paragraphone {
+  color:white;
+  font-size: 30px;
+  padding-bottom: 1000px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+ 
+/* NEW SHIT (FOOTER) */
+footer {
+  color:white;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;    
+  bottom:0; 
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding:10px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  padding:0;
+}
+
+li a:hover {
+  background-color: gray;
+}
+
